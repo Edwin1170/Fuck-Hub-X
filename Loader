@@ -1,13 +1,4 @@
---Please Dont Edit The GUI / Creators Of Fuck Hub : NOTH4CK_OK = ElSacaleche = MACABRO
-
-https://raw.githubusercontent.com/Edwin1170/OP-SHOTGUN-/main/op -- OP SHOTGUN NO ONE SHOT GUN THIS MAKE SHOTGUN ONE TAP NOT ALL GUNS DELETE IF YOU DONT WANT OP SHOTGUN
-
--- Op Shotgun And Infinite stamina And No Spawn Cooldown Not My Scripts Credits To Shariiii
-
-https://raw.githubusercontent.com/Edwin1170/Infinite-Stamina/main/Working -- Infinite Stamina
-
-
-https://raw.githubusercontent.com/Edwin1170/No-Spawn-Cooldown/main/Working -- No Spawn Cooldown
+--Please Dont Edit The GUI / Creators Of Fuck Hub : NOTH4CK_OK = ElSacaleche = MACABRO = elvioIamujeres
 
 
 
@@ -16,19 +7,7 @@ https://raw.githubusercontent.com/Edwin1170/No-Spawn-Cooldown/main/Working -- No
 
 
 
-
-
-
-
-
-
-
-
-
-
---// Fuck Hub X, 
-
-local mainName = "Anomic | Fuck Hub X  | 3.8.9" 
+local mainName = "Fuck Hub X | 3.89.9"
 if game:GetService("CoreGui"):FindFirstChild(mainName) then
     game.CoreGui[mainName]:Destroy()
 end
@@ -89,18 +68,18 @@ local BuySectionMisc2 = Buy:addSection("Misc / Troll")
 -- // Miscellaneous Section
 local miscSection = misc:addSection("Miscellaneous")
 local CarSection = misc:addSection("Miscellaneous Vehicle")
-local boomSection = misc:addSection("Boombox Player (Hold Boombox : NOT WORKING)")
+local boomSection = misc:addSection("Boombox Player (NOT WORKING)")
 
 -- // UI Section
 local ThemeSection = Ui:addSection("Theme")
 local UISection = Ui:addSection("UI")
 
 -- // Credits Section
-local creds = Ui:addSection("Nothing Here .")
-local UISection2 = Ui:addSection("Join Discord For Updates! : https://discord.gg/tX9URup545")
-local UISection2 = Ui:addSection("Credits: EdgeIY, for the fly, Alwayswin for a few FE features And Credits To Anomic V")
+local creds = Ui:addSection("Developers: NOTH4CK_OK , MACABRO , ElSacaleche And elvioIamujeres.")
+local UISection2 = Ui:addSection("Discord: https://discord.gg/jhb37CBT8U")
+local UISection2 = Ui:addSection("Credits: EdgeIY, for the fly, Alwayswin for a few FE features, Credits To Anomic V")
 local UISection2 = Ui:addSection("Inspired On Anomic V")
-
+local UISection2 = Ui:addSection("Version 3.89.9")
 print("Loading | R")
 if syn then
     syn.request({ 
@@ -185,7 +164,7 @@ local alwaysHeadShot = false
 _G.flySpeed = 1
 local lJumpHeight = 30
 local ThemeEnabled = true
-local ThemeMode = "Purple" -- Red,Green,White
+local ThemeMode = "White" -- Red,Green,White
 local folderImpacts = game:GetService("Workspace").RayIgnore.BulletHoles
 
 local DevList = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/bannedusers.lua"))()
@@ -320,7 +299,7 @@ function setTheme()
                    end
                end
            end
-           if ThemeMode == "Purple" then
+           if ThemeMode == "White" then
                LPlayer.PlayerGui.MainUIHolder.MenuBar.CashDisplay.TextColor3 = Color3.fromRGB(150,0,150) -- Cash
                else if ThemeMode == "Red" then
                    LPlayer.PlayerGui.MainUIHolder.MenuBar.CashDisplay.TextColor3 = Color3.fromRGB(201, 0, 0) -- Cash
@@ -612,7 +591,7 @@ end)
 ASection1:addSlider("Hitbox Transparency", hitboxTransparency, 0, 1, function(v)
     hitboxTransparency = v
 end)
-ASection2:addToggle("Disable Sound Shotgun", nil, function(x)   
+ASection2:addToggle("Ghost Shotgun --This Off the Shot Sound", nil, function(x)   
     shotgunMod1 = x    
     bypass()
 end)
@@ -727,7 +706,7 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function()
         disableStam(infiniteStamina)    
     end
 end)
-PlrSection:addToggle("Air Swim / PATCHED DONT Use", nil, function(v)
+PlrSection:addToggle("Crash--THIS CRASH ROBLOX", nil, function(v)
     for i, v in next, getconnections(game:GetService("Workspace"):GetPropertyChangedSignal("Gravity")) do
         v:Disable()
     end
@@ -1033,7 +1012,7 @@ specificSection:addButton("View target", function()
         end
     end
 end)
-specificSection:addButton("Reset Camera USE IF YOU ARMOR GOT GLITCHED", function()    
+specificSection:addButton("Reset Camera --View Player And unview to fix the glitched armor", function()    
     workspace.Camera.CameraSubject = LPlayer.Character.Humanoid       
 end)
 specificSection:addToggle("Highlight Targtet", nil, function(x)   
@@ -1330,7 +1309,7 @@ end)
 miscSection:addButton("No void", function()
    game:GetService("Workspace").FallenPartsDestroyHeight = math.huge - math.huge
 end)
-miscSection:addButton("Reset cash to 50k / THIS MAKE REJOIN", function()
+miscSection:addButton("Reset cash to 50k -- This Make Rejoin", function()
     for i,v in pairs(workspace.PlayerVehicles:GetChildren()) do
         game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(v, 9e9)
     end
@@ -1404,7 +1383,7 @@ CarSection:addButton("Skydive passengers", function()
     seat.Parent:MoveTo(Vector3.new(seat.Parent.PrimaryPart.Position.X, seat.Parent.PrimaryPart.Position.Y + 30000, seat.Parent.PrimaryPart.Position.Z))
 end)
 
-boomSection:addButton("Stop Song / THIS NOT WORKING", function() 
+boomSection:addButton("Stop Song", function() 
     game:GetService("Players").LocalPlayer.Character.Boombox.ToolModel.PlayMusicEvent:FireServer("Stop","http://www.roblox.com/asset/?id=0")end)
 boomSection:addButton("Among us Drip", function() 
     game:GetService("Players").LocalPlayer.Character.Boombox.ToolModel.PlayMusicEvent:FireServer("Play","http://www.roblox.com/asset/?id=6065418936")end)
@@ -1892,8 +1871,8 @@ game:GetService("RunService").RenderStepped:connect(function()
     end    
 end)
 
-notify("Anomic Fuck Hub", "Scripts made by Edwin1170 And ElSacaLeche And MACABRO - Scrit Name Fuck Hub")
-notify("Anomic Fuck Hub",: " Join Discord https://discord.gg/tX9URup545")
+notify("Anomic Fuck Hub X", "Script made by Edwin1170 = MACABRO = ElSacaLeche = NOTH4CK_OK")
+notify("Anomic Fuck Hub X", "Join Discord https://discord.gg/tX9URup545")
 
 wait(.3)
 
