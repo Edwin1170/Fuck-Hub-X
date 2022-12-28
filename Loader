@@ -1,4 +1,4 @@
---Please Dont Edit The GUI / Creators Of Fuck Hub X : NOTH4CK_OK = ElSacaleche = MACABRO = elvioIamujeres = AlexisBy%5600MoonV41
+--Please Dont Edit The GUI / Creators Of Fuck Hub X : NOTH4CK_OK = ElSacaleche = MACABRO = elvioIamujeres = Alexx1xSpeedx
 
 
 
@@ -7,7 +7,7 @@
 
 
 
-local mainName = "Fuck Hub X | 3.89.9"
+local mainName = "Annomaly X Hub | 3.89.9"
 if game:GetService("CoreGui"):FindFirstChild(mainName) then
     game.CoreGui[mainName]:Destroy()
 end
